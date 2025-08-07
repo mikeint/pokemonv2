@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Alakazam",
+        "price": 153.52,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "number": 1
+    },
+    {
+        "name": "Blastoise",
+        "price": 553.11,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "number": 1
+    },
+    {
+        "name": "Chansey",
+        "price": 111.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "number": 1
+    },
+    {
+        "name": "Charizard",
+        "price": 1400.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "number": 4
+    }
+]
