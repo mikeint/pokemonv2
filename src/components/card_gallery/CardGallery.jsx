@@ -27,6 +27,7 @@ const CardGallery = () => {
 
           return (
             <div className={styles.card} key={index}>
+              <span className={styles.cardNumber}>#{card.number}</span>
               <img
                 src={neutralImg}
                 alt={`Card ${card.name}`}
@@ -44,9 +45,7 @@ const CardGallery = () => {
 
       {showModal && selectedCard && (
         <Modal cardName={selectedCard.name} onClose={() => setShowModal(false)}>
-          <div className={styles.modalContent}>
-            <CardEffect cardName={selectedCard.name} />
-          </div>
+          <CardEffect cardName={selectedCard.name} />
         </Modal>
       )}
     </>

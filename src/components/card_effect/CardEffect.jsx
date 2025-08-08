@@ -25,10 +25,10 @@ const CardEffect = ({ cardName }) => {
     const width = rect.width
     const height = rect.height
 
-    const left = width * 0.2
-    const right = width * 0.8
-    const top = height * 0.3
-    const bottom = height * 0.7
+    const left = width * 0.4
+    const right = width * 0.6
+    const top = height * 0.4
+    const bottom = height * 0.6
 
     if (x < left) setCardImage(getImage('left'))
     else if (x > right) setCardImage(getImage('right'))
@@ -40,8 +40,7 @@ const CardEffect = ({ cardName }) => {
   const handleMouseLeave = () => setCardImage(getImage('neutral'))
 
   return (
-    <div
-      className={styles.cardWrapper}
+    <div 
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       ref={cardRef}
