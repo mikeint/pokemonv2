@@ -72,17 +72,15 @@ const CardGallery = () => {
             return (
               <div className={styles.card} key={index}>
                 <span className={styles.cardNumber}>#{card.number}</span>
-                <div className={styles.cardWrap}>
-                  <img
-                    src={neutralImg}
-                    alt={`Card ${card.name}`}
-                    className={styles.cardThumbnail}
-                    onClick={() => handleCardClick(card)}
-                  />
-                  <div className={styles.cardInfo}>
-                    <div className={styles.cardName}>{card.name}</div>
-                    <div className={styles.cardPrice}>${card.price.toFixed(2)}</div>
-                  </div>
+                <img
+                  src={neutralImg}
+                  alt={`Card ${card.name}`}
+                  className={styles.cardThumbnail}
+                  onClick={() => handleCardClick(card)}
+                />
+                <div className={styles.cardInfo}>
+                  <div className={styles.cardName}>{card.name}</div>
+                  <div className={styles.cardPrice}>${card.price.toFixed(2)}</div>
                 </div>
               </div>
             );

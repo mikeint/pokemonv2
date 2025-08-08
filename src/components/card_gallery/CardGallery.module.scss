@@ -5,8 +5,6 @@
 }
 
 .gallery {
-  max-width: 1500px;
-  margin: auto;
   display: flex; 
   padding: 0 0.5rem;
   flex-wrap: wrap;
@@ -79,43 +77,26 @@
   max-width: 200px;
 }
 
-.cardWrap { 
-  background-color: #dde1eb;
-  box-shadow: 0 0 4px 1px #000000;
-  padding: 0.3rem 0.7rem;
-  border-radius: 8px; 
-}
-
 .card { 
   display: flex;
   flex-direction: column;
+  background-color: #dde1eb;
   border-radius: 8px;
   padding: 0.3rem 0.7rem;
   justify-content: center;
+  box-shadow: 0 0 4px 1px #000000;
   position: relative;
-  align-items: center;
-  width: calc(10% + 8px);
-  @media only screen and (max-width: 1512px) {
-    width: calc(15% - 40px);
-  }
-  @media only screen and (max-width: 1250px) {
-    width: calc(20% - 29px);
-  }
-  @media only screen and (max-width: 900px) {
-    width: calc(25% - 29px);
-  }
-  @media only screen and (max-width: 800px) {
-    width: calc(33% - 27px);
-  }
-  @media only screen and (max-width: 600px) {
+
+  @media only screen and (max-width: 700px) {
+    align-items: center;
     width: calc(50% - 27px);
   }
 }
 
 .cardNumber {
   position: absolute;
-  top: 7px;
-  left: 5px;
+  top: 0px;
+  left: 0px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   padding: 2px 5px;
@@ -128,9 +109,9 @@
   object-fit: cover;
   cursor: pointer;
   border-radius: 8px;
-  transition: transform 0.2s ease-in-out; 
-  
-  &:hover { 
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
     transform: scale(1.05);
   }
 } 
