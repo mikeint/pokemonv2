@@ -3,7 +3,7 @@ import styles from './CardEffect.module.scss'
 
 const POSSIBLE_VIEWS = ['neutral', 'left', 'right', 'top', 'bottom']
 
-const CardEffect = ({ cardName }) => {
+const CardEffect = ({ cardName, cardPrice }) => {
   const cardRef = useRef(null)
 
   const getImage = (view) => {
@@ -20,6 +20,7 @@ const CardEffect = ({ cardName }) => {
     if (img) acc[view] = img
     return acc
   }, {})
+ 
 
   const [cardImage, setCardImage] = useState(availableImages.neutral || '')
 
@@ -67,6 +68,10 @@ const CardEffect = ({ cardName }) => {
         alt={`${cardName} card`}
         className={styles.cardImage}
       />
+      <div className={styles.cardInfo}>
+        <span>{cardName}</span>
+        <span>${cardPrice}</span>
+      </div>
     </div>
   )
 }

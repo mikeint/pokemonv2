@@ -69,6 +69,7 @@ const CardGallery = () => {
               neutralImg = '';
             }
 
+            if (!neutralImg) return null;
             return (
               <div className={styles.card} key={index}>
                 <span className={styles.cardNumber}>#{card.number}</span>
@@ -88,10 +89,14 @@ const CardGallery = () => {
         </div>
       </div>
 
-      {/* Modal */}
+      {/* Modal */} 
       {showModal && selectedCard && (
-        <Modal cardName={selectedCard.name} onClose={() => setShowModal(false)}>
-          <CardEffect cardName={selectedCard.name} />
+        <Modal
+          cardName={selectedCard.name}
+          cardPrice={selectedCard.price}
+          onClose={() => setShowModal(false)}
+        >
+          <CardEffect cardName={selectedCard.name} cardPrice={selectedCard.price} />
         </Modal>
       )}
     </>

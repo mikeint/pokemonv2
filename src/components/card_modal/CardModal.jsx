@@ -2,7 +2,7 @@ import { useState } from 'react'
 import styles from './CardModal.module.scss'
 import CardEffect from '../card_effect/CardEffect'
 
-const CardModal = ({ cardName, onClose }) => {
+const CardModal = ({ cardName, cardPrice, onClose }) => {
   const [isFlipped, setIsFlipped] = useState(false)
 
   const handleFlip = () => setIsFlipped(!isFlipped)
@@ -29,7 +29,7 @@ const CardModal = ({ cardName, onClose }) => {
               className={styles.cardImage}
             />
           ) : (
-            <CardEffect cardName={cardName} />
+            <CardEffect cardName={cardName} cardPrice={cardPrice} />
           )} 
       </div>
     </div>

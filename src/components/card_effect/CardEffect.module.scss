@@ -7,3 +7,9 @@
     width: 100%;
   }
 }
+
+.cardInfo {
+  display: flex; 
+  justify-content: space-between; 
+  font-weight: bold;
+}
