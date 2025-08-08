@@ -1,7 +1,7 @@
 .galleryContainer {
   display: flex;    
   flex-direction: column;  
-  border-top: 1px solid #ddd;
+  border-top: 2px solid #ddd;
 }
 
 .gallery {
@@ -33,23 +33,25 @@
 .tabs {
   display: flex; 
   gap: 1rem;
+  justify-content: flex-end;
+  align-items: end;
 }
 .tabButton {
-  height: 60px;
+  height: 45px;
+  font-size: 0.7rem;
   padding: 15px; 
   background-color: #ddd;
   border: none; 
   cursor: pointer;
   font-weight: bold;
-  transition: 0.3s;    
+  transition: 0.3s;      
   border-bottom: 1px solid #272828;
-  margin-top: 1px;
-  z-index: 1;
-  font-size: 0.7rem;
+  z-index: 1; 
 } 
 .active {
+  height: 60px;
   font-size: 1.3rem;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-bottom: none;
   background-color: #272828;
   border-top-left-radius: 6px;
@@ -57,7 +59,8 @@
   box-shadow: 0 -5px 6px -2px #1f1e1e; 
   color: #ddd;
   border-bottom: 1px solid #272828;
-  margin-top: 1px;
+  margin-bottom: 1px; 
+  margin-top: 5px;
   z-index: 1;
 }
 .totalValue {
@@ -77,7 +80,7 @@
   max-width: 200px;
 }
 
-.card { 
+.card {
   display: flex;
   flex-direction: column;
   background-color: #dde1eb;
