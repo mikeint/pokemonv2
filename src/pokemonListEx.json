@@ -1,35 +1,42 @@
 [
     {
-        "name": "Zapdos (j)",
-        "price": 100.00,
-        "condition": "NM",
-        "set": "Jungle",
-        "edition": "",
-        "number": 1
-    },
-    {
-        "name": "Dark Charizard",
-        "price": 553.11,
-        "condition": "LP",
-        "set": "Team Rocket",
-        "edition": "",
-        "number": 2
-    },
-    {
-        "name": "Ancient Mew",
-        "price": 121.00,
-        "condition": "NM",
-        "set": "Movie Promo",
-        "grade": "8",
-        "edition": "",
-        "number": 3
-    },
-    {
         "name": "Articuno",
         "price": 15.00,
         "condition": "LP",
         "set": "Fossil",
         "edition": "",
-        "number": 4
+        "number": 17
+    },
+    {
+        "name": "Dark Dugtrio",
+        "price": 33.00,
+        "condition": "LP",
+        "set": "Team Rocket",
+        "edition": "",
+        "number": 23
+    },
+    {
+        "name": "Dark Magneton",
+        "price": 56.50,
+        "condition": "NM",
+        "set": "Team Rocket",
+        "edition": "",
+        "number": 28
+    },
+    {
+        "name": "Rockets Zapdos",
+        "price": 113.00,
+        "condition": "NM",
+        "set": "Gym Challenge",
+        "edition": "",
+        "number": 15
+    },
+    {
+        "name": "Lt Surges Magneton",
+        "price": 25.00,
+        "condition": "NM",
+        "set": "Gym Heroes",
+        "edition": "",
+        "number": 8
     }
 ]

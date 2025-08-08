@@ -41,27 +41,29 @@ const CardGallery = () => {
           >
             Extra Cards
           </button>
-        </div>
-
-        <div className={styles.totalValue}>
-          ${totalValue}
-        </div>
+        </div> 
       </div>
 
       {/* Card Gallery */}
       <div className={styles.galleryContainer}>
-        <input
-          type="text"
-          placeholder="Search Pokémon..."
-          className={styles.searchInput}
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
+        <div className={styles.searchHeader}>
+          <input
+            type="text"
+            placeholder="Search Pokémon..."
+            className={styles.searchInput}
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <div className={styles.totalValue}>
+            ${totalValue}
+          </div>
+        </div>
+
         <div className={styles.gallery}>
           {filteredCards.map((card, index) => {
             let neutralImg;
             try {
-              neutralImg = require(`../../assets/${card.name}/neutral.png`);
+              neutralImg = require(`../../pokemon/${card.name}/neutral.png`);
             } catch (e) {
               console.warn(`Image not found for ${card.name}`);
               neutralImg = '';

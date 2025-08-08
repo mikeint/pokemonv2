@@ -34,5 +34,599 @@
         "edition": "",
         "grade": "",
         "number": 4
+    },
+    {
+        "name": "Clefairy",
+        "price": 107.06,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 5
+    },
+    {
+        "name": "Gyarados",
+        "price": 114.46,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 6
+    },
+    {
+        "name": "Hitmonchan",
+        "price": 60.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 7
+    },
+    {
+        "name": "Machamp",
+        "price": 100.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 8
+    },
+    {
+        "name": "Magneton",
+        "price": 113.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 9
+    },
+    {
+        "name": "Mewtwo",
+        "price": 101.69,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 10
+    },
+    {
+        "name": "Nidoking",
+        "price": 116.72,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 11
+    },
+    {
+        "name": "Ninetales",
+        "price": 120.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 12
+    },
+    {
+        "name": "Poliwrath",
+        "price": 100.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 13
+    },
+    {
+        "name": "Raichu",
+        "price": 123.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 14
+    },
+    {
+        "name": "Venusaur",
+        "price": 620.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 15
+    },
+    {
+        "name": "Zapdos",
+        "price": 171.60,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 16
+    },
+    {
+        "name": "Beedrill",
+        "price": 15.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 17
+    },
+    {
+        "name": "Dragonair",
+        "price": 47.12,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 18
+    },
+    {
+        "name": "Dugtrio",
+        "price": 15.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 19
+    },
+    {
+        "name": "Electabuzz",
+        "price": 34.12,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 20
+    },
+    {
+        "name": "Electrode",
+        "price": 23.26,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 21
+    },
+    {
+        "name": "Pidgeotto",
+        "price": 47.93,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 22
+    },
+    {
+        "name": "Arcanine",
+        "price": 10.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 23
+    },
+    {
+        "name": "Charmeleon",
+        "price": 23.74,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 24
+    },
+    {
+        "name": "Dewgong",
+        "price": 0.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 25
+    },
+    {
+        "name": "Dratini",
+        "price": 8.69,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 26
+    },
+    {
+        "name": "Farfetch'd",
+        "price": 9.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 27
+    },
+    {
+        "name": "Growlithe",
+        "price": 4.37,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 28
+    },
+    {
+        "name": "Haunter",
+        "price": 13.61,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 29
+    },
+    {
+        "name": "Ivysaur",
+        "price": 13.67,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 30
+    },
+    {
+        "name": "Jynx",
+        "price": 13.61,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 31
+    },
+    {
+        "name": "Kadabra",
+        "price": 27.33,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 32
+    },
+    {
+        "name": "Kakuna",
+        "price": 3.30,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 33
+    },
+    {
+        "name": "Machoke",
+        "price": 3.49,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 34
+    },
+    {
+        "name": "Magikarp",
+        "price": 5.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 35
+    },
+    {
+        "name": "Magmar",
+        "price": 6.42,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 36
+    },
+    {
+        "name": "Nidorino",
+        "price": 15.04,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 37
+    },
+    {
+        "name": "Poliwhirl",
+        "price": 2.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 38
+    },
+    {
+        "name": "Porygon",
+        "price": 27.39,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 39
+    },
+    {
+        "name": "Raticate",
+        "price": 13.17,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 40
+    },
+    {
+        "name": "Seel",
+        "price": 4.85,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 41
+    },
+    {
+        "name": "Wartortle",
+        "price": 27.39,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 42
+    },
+    {
+        "name": "Abra",
+        "price": 4.08,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 43
+    },
+    {
+        "name": "Bulbasaur",
+        "price": 23.48,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 44
+    },
+    {
+        "name": "Caterpie",
+        "price": 5.31,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 45
+    },
+    {
+        "name": "Charmander",
+        "price": 16.63,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 46
+    },
+    {
+        "name": "Diglett",
+        "price": 1.21,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 47
+    },
+    {
+        "name": "Doduo",
+        "price": 2.29,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 48
+    },
+    {
+        "name": "Drowzee",
+        "price": 4.92,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 49
+    },
+    {
+        "name": "Gastly",
+        "price": 3.08,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 50
+    },
+    {
+        "name": "Koffing",
+        "price": 4.47,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 51
+    },
+    {
+        "name": "Machop",
+        "price": 1.45,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 52
+    },
+    {
+        "name": "Magnemite",
+        "price": 2.74,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 53
+    },
+    {
+        "name": "Metapod",
+        "price": 10.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 54
+    },
+    {
+        "name": "Nidoran",
+        "price": 2.93,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 55
+    },
+    {
+        "name": "Onix",
+        "price": 6.25,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 56
+    },
+    {
+        "name": "Pidgey",
+        "price": 5.36,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 57
+    },
+    {
+        "name": "Pikachu (Y)",
+        "price": 29.41,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 58
+    },
+    {
+        "name": "Pikachu (R)",
+        "price": 55.00,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 59
+    },
+    {
+        "name": "Poliwag",
+        "price": 8.20,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 60
+    },
+    {
+        "name": "Ponyta",
+        "price": 2.53,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 61
+    },
+    {
+        "name": "Rattata",
+        "price": 2.36,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 62
+    },
+    {
+        "name": "Sandshrew",
+        "price": 3.44,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 63
+    },
+    {
+        "name": "Squirtle",
+        "price": 18.11,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 64
+    },
+    {
+        "name": "Starmie",
+        "price": 3.32,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 65
+    },
+    {
+        "name": "Staryu",
+        "price": 1.66,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 66
+    },
+    {
+        "name": "Tangela",
+        "price": 4.08,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 67
+    },
+    {
+        "name": "Voltorb",
+        "price": 3.99,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 68
+    },
+    {
+        "name": "Vulpix",
+        "price": 5.58,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 69
+    },
+    {
+        "name": "Weedle",
+        "price": 4.44,
+        "condition": "LP",
+        "set": "baseset (shadowless)",
+        "edition": "",
+        "grade": "",
+        "number": 70
     }
 ]

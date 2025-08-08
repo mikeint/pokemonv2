@@ -9,7 +9,7 @@ const CardModal = ({ cardName, onClose }) => {
 
   const getBackImage = () => {
     try {
-      return require(`../../assets/${cardName}/back.png`)
+      return require(`../../pokemon/${cardName}/back.png`)
     } catch (e) {
       console.warn(`Back image not found for ${cardName}`)
       return ''
