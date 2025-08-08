@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import styles from './CardEffect.module.scss'
 
-const REQUIRED_VIEWS = ['neutral', 'left', 'right', 'top', 'bottom']
+const POSSIBLE_VIEWS = ['neutral', 'left', 'right', 'top', 'bottom']
 
 const CardEffect = ({ cardName }) => {
   const cardRef = useRef(null)
@@ -10,26 +10,22 @@ const CardEffect = ({ cardName }) => {
     try {
       return require(`../../pokemon/${cardName}/${view}.png`)
     } catch (e) {
-      console.warn(`Missing image: ${cardName}/${view}.png`)
       return null
     }
   }
- 
-  const availableImages = REQUIRED_VIEWS.reduce((acc, view) => {
+
+  // Load only available images
+  const availableImages = POSSIBLE_VIEWS.reduce((acc, view) => {
     const img = getImage(view)
     if (img) acc[view] = img
     return acc
   }, {})
 
-  const animationEnabled = REQUIRED_VIEWS.every(view => availableImages[view])
-
   const [cardImage, setCardImage] = useState(availableImages.neutral || '')
 
   const handleMouseMove = (e) => {
-    if (!animationEnabled) return
-
     const card = cardRef.current
-    if (!card) return
+    if (!card || !availableImages.neutral) return
 
     const rect = card.getBoundingClientRect()
     const x = e.clientX - rect.left
@@ -41,16 +37,23 @@ const CardEffect = ({ cardName }) => {
     const top = height * 0.4
     const bottom = height * 0.6
 
-    if (x < left) setCardImage(availableImages.left)
-    else if (x > right) setCardImage(availableImages.right)
-    else if (y < top) setCardImage(availableImages.top)
-    else if (y > bottom) setCardImage(availableImages.bottom)
-    else setCardImage(availableImages.neutral)
+    if (x < left && availableImages.left) {
+      setCardImage(availableImages.left)
+    } else if (x > right && availableImages.right) {
+      setCardImage(availableImages.right)
+    } else if (y < top && availableImages.top) {
+      setCardImage(availableImages.top)
+    } else if (y > bottom && availableImages.bottom) {
+      setCardImage(availableImages.bottom)
+    } else {
+      setCardImage(availableImages.neutral)
+    }
   }
 
   const handleMouseLeave = () => {
-    if (!animationEnabled) return
-    setCardImage(availableImages.neutral)
+    if (availableImages.neutral) {
+      setCardImage(availableImages.neutral)
+    }
   }
 
   return (
