@@ -63,15 +63,15 @@ const CardEffect = ({ cardName, cardPrice }) => {
       onMouseLeave={handleMouseLeave}
       ref={cardRef}
     >
+      <div className={styles.cardInfo}>
+        <span>{cardName}</span>
+        <span>${cardPrice}</span>
+      </div>
       <img
         src={cardImage}
         alt={`${cardName} card`}
         className={styles.cardImage}
       />
-      <div className={styles.cardInfo}>
-        <span>{cardName}</span>
-        <span>${cardPrice}</span>
-      </div>
     </div>
   )
 }

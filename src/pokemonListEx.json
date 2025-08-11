@@ -38,5 +38,13 @@
         "set": "Gym Heroes",
         "edition": "",
         "number": 8
+    },
+    {
+        "name": "Ancient Mew",
+        "price": 125.00,
+        "condition": "NM",
+        "set": "Movie Promo",
+        "edition": "",
+        "number": 1
     }
 ]

@@ -1,6 +1,6 @@
 
 .cardImage {
-  height: 80vh;
+  height: calc(80vh - 37px);
   
   @media only screen and (max-width: 900px) { 
     height: 100%;
@@ -9,7 +9,12 @@
 }
 
 .cardInfo {
-  display: flex; 
-  justify-content: space-between; 
+  display: flex;
+  justify-content: space-between;
   font-weight: bold;
+  padding: 0.5rem;
+  background: #101010;
+  color: white;
+  width: calc(100% - 1rem);
+  font-size: 18px;
 }

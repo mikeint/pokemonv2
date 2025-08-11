@@ -12,7 +12,8 @@
 }
 
 .modal {
-  height: 80vh; 
+  height: 80vh;
+  min-width: 735px;
   position: relative;
   background-color: #dde1eb;
   border-radius: 12px;
